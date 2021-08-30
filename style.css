@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+body{
+    background-color: #F7F7F7;
+}
+
+.flexContainer{
+    background-color: rgb(118, 66, 155);
+    box-shadow: 5px 5px 30px black;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 40vw;
+    margin-left: 50vw;
+    margin-top: 5vh;
+}
+
+.logos{
+    position: relative;
+    bottom: 80vh;
+    left: 6vw;
+}
+
+.Input {
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 20vw;
+    color: black;
+}
+
+.Input:focus{
+    outline: none;
+}
+
+.checkbtn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    background-color: rgb(103, 50, 250);
+    width: 10vw;
+    min-height: 7vh;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.checkbtn:hover{
+    background-color: black;
+    background-blend-mode: overlay;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    left: 4vw;
+    bottom: 75vh;
+    padding: 1rem;
+    outline: 1px black;
+    background-color: white;
+    border-radius: 5px;
+    width: 40vw;
+}
